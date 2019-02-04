@@ -1,0 +1,26 @@
+---------average------------
+test error:
+0.1931345117040879
+Sen:
+0.9522012578616352
+Spe:
+0.7985279261076634
+Pa:
+0.8068654882959121
+---------stack------------
+Ensemble matrix formed
+Starting fitting ensemble matrix for training set..
+best params:
+{'penalty': 'l2', 'C': 0.4}
+training error:
+5.8498347421685335e-05
+Starting forming ensemble matrix for testing set..
+Ensemble matrix formed
+test error:
+0.16658704702108784
+Sen:
+0.6974555594283722
+Spe:
+0.8665139171758316
+Pa:
+0.8334129529789122

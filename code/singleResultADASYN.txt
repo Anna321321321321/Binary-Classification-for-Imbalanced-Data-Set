@@ -1,0 +1,95 @@
+----------Random Forest----------------
+best params:
+train error:
+5.8498347421685335e-05
+test error:
+0.5441194498246991
+Sen:
+0.9123097286565188
+Spe:
+0.32543110242426154
+Pa:
+0.45588055017530094
+----------KNN----------------
+best params:
+train error:
+0.1260639386937319
+test error:
+0.5738838355358324
+Sen:
+0.9249457111834962
+Spe:
+0.31613752655674915
+Pa:
+0.4261161644641675
+----------Decision Tree----------------
+best params:
+{'max_depth': 1}
+train error:
+0.23843926409078944
+test error:
+0.7274131463456494
+Sen:
+/usr/local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:2920: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/usr/local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+nan
+Spe:
+0.27258685365435065
+Pa:
+0.27258685365435065
+----------SVM----------------
+train error:
+0.18318757495100763
+test error:
+0.6608233015421581
+Sen:
+0.9130170316301703
+Spe:
+0.28886103629430115
+Pa:
+0.339176698457842
+/usr/local/lib/python2.7/site-packages/sklearn/linear_model/logistic.py:433: FutureWarning: Default solver will be changed to 'lbfgs' in 0.22. Specify a solver to silence this warning.
+  FutureWarning)
+----------Logistic_regression----------------
+best params:
+{'penalty': 'l1', 'C': 1.0}
+train error:
+0.147240340460382
+test error:
+0.39622919067349893
+Sen:
+0.9512292891501871
+Spe:
+0.4023393624849917
+Pa:
+0.6037708093265011
+----------Gradient_boosting----------------
+best params:
+{'n_estimators': 100, 'learning_rate': 0.03, 'max_depth': 3}
+train error:
+0.14416917722074352
+test error:
+0.534778238164121
+Sen:
+0.9459643546373028
+Spe:
+0.3327912940146351
+Pa:
+0.4652217618358791
+----------NN----------------
+best params:
+{'alpha': 0.001, 'solver': 'lbfgs', 'hidden_layer_sizes': 100}
+train error:
+0.23288192108572933
+test error:
+0.7249859023708535
+Sen:
+1.0
+Spe:
+0.27325009830908376
+Pa:
+0.2750140976291465
+Terminated: 15
+dhcp-128-189-203-80:code anna321321$

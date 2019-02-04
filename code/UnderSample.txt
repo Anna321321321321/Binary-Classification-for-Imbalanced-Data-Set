@@ -1,0 +1,84 @@
+----------Random Forest----------------
+best params:
+train error:
+0.0
+test error:
+0.16433494847471508
+Sen:
+0.6245167159426882
+Spe:
+0.9261895475819033
+Pa:
+0.8356650515252849
+----------KNN----------------
+best params:
+train error:
+0.08023199613339778
+test error:
+0.3288746331809186
+Sen:
+0.3734128510965756
+Spe:
+0.8347964040190375
+Pa:
+0.6711253668190814
+----------Decision Tree----------------
+best params:
+{'max_depth': 10}
+train error:
+0.1315928270042194
+test error:
+0.1872654064014195
+Sen:
+0.5693732755222704
+Spe:
+0.9416431777847375
+Pa:
+0.8127345935985805
+/usr/local/lib/python2.7/site-packages/sklearn/linear_model/logistic.py:433: FutureWarning: Default solver will be changed to 'lbfgs' in 0.22. Specify a solver to silence this warning.
+  FutureWarning)
+----------Logistic_regression----------------
+best params:
+{'penalty': 'l1', 'C': 1.0}
+train error:
+0.1516762599411222
+test error:
+0.16972633590391045
+Sen:
+0.6139013452914798
+Spe:
+0.9249484940645541
+Pa:
+0.8302736640960895
+----------Gradient_boosting----------------
+best params:
+{'n_estimators': 100, 'learning_rate': 0.03, 'max_depth': 3}
+train error:
+0.1496550815062173
+
+ 
+----------NN----------------
+best params:
+{'alpha': 0.0001, 'solver': 'adam', 'hidden_layer_sizes': (20, 20, 20)}
+train error:
+0.26397267565649396
+test error:
+0.18876680543233468
+Sen:
+0.7362637362637363
+Spe:
+0.8195044328256422
+Pa:
+0.8112331945676653
+
+----------SVM----------------
+train error:
+0.24560323601829054
+test error:
+0.213539889442435
+Sen:
+0.607696726019529
+Spe:
+0.8105638166047088
+Pa:
+0.786460110557565

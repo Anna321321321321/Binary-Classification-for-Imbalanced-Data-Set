@@ -1,0 +1,93 @@
+----------Random Forest----------------
+best params:
+train error:
+5.8498347421685335e-05
+test error:
+0.44116547443981957
+Sen:
+0.9383311299478965
+Spe:
+0.37983273420878877
+Pa:
+0.5588345255601804
+----------KNN----------------
+best params:
+train error:
+0.12931059697563543
+test error:
+0.45953490690660753
+Sen:
+0.9504103967168263
+Spe:
+0.3717854001759015
+Pa:
+0.5404650930933925
+----------Decision Tree----------------
+best params:
+{'max_depth': 1}
+train error:
+0.23931673930211472
+test error:
+0.7221405249121408
+Sen:
+/usr/local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:2920: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/usr/local/lib/python2.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+nan
+Spe:
+0.27785947508785924
+Pa:
+0.27785947508785924
+----------SVM----------------
+train error:
+0.1851472695896341
+test error:
+0.5401909224595598
+Sen:
+0.9685494223363287
+Spe:
+0.3372305217902323
+Pa:
+0.45980907754044015
+/usr/local/lib/python2.7/site-packages/sklearn/linear_model/logistic.py:433: FutureWarning: Default solver will be changed to 'lbfgs' in 0.22. Specify a solver to silence this warning.
+  FutureWarning)
+----------Logistic_regression----------------
+best params:
+{'penalty': 'l1', 'C': 1.0}
+train error:
+0.14665535698616514
+test error:
+0.2973006654869021
+Sen:
+0.9591122124656575
+Spe:
+0.48190926802115225
+Pa:
+0.7026993345130979
+----------Gradient_boosting----------------
+best params:
+{'n_estimators': 100, 'learning_rate': 0.03, 'max_depth': 3}
+train error:
+0.1440229313521893
+test error:
+0.4381495974676603
+Sen:
+0.96181906614786
+Spe:
+0.38427208925679324
+Pa:
+0.5618504025323396
+----------NN----------------
+best params:
+{'alpha': 0.001, 'solver': 'lbfgs', 'hidden_layer_sizes': 100}
+train error:
+0.7606832606978853
+test error:
+0.27785947508785924
+Sen:
+0.7221405249121408
+Spe:
+nan
+Pa:
+0.7221405249121408

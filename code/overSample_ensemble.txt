@@ -1,0 +1,32 @@
+-------------------Stacking-------------------------
+Starting forming ensemble matrix for training set..
+/usr/local/lib/python2.7/site-packages/sklearn/linear_model/logistic.py:433: FutureWarning: Default solver will be changed to 'lbfgs' in 0.22. Specify a solver to silence this warning.
+  FutureWarning)
+Ensemble matrix formed
+Starting fitting ensemble matrix for training set..
+best params:
+{'penalty': 'l2', 'C': 0.4}
+training error:
+1.9178765271091845e-05
+Starting forming ensemble matrix for testing set..
+Ensemble matrix formed
+test error:
+0.2508018835733297
+Sen:
+0.48177743129994155
+Spe:
+0.8932997269481201
+Pa:
+0.7491981164266703
+-------------------Averaging-------------------------
+Starting fitting ensemble matrix for training set..
+Starting forming ensemble matrix for testing set..
+Ensemble matrix formed
+test error:
+0.24745785845901863
+Sen:
+0.4871268656716418
+Spe:
+0.9056278919616916
+Pa:
+0.7525421415409814
